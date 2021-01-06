@@ -45,30 +45,30 @@ a {
 
 @font-face {
   font-family: 'Love4';
-  src: url('./fonts/love_4/lovee.eot') format('eot'),
-  url('./fonts/love_4/lovee.woff2') format('woff2'),
-  url('./fonts/love_4/lovee.woff') format('woff'), 
-  url('./fonts/love_4/lovee.ttf') format('truetype');	
+  src: url('./fonts/lovee.eot') format('eot'),
+  url('./fonts/lovee.woff2') format('woff2'),
+  url('./fonts/lovee.woff') format('woff'), 
+  url('./fonts/lovee.ttf') format('truetype');	
 }
 @font-face {
   font-family: 'Love3';
-  src: url('./fonts/love_3/Love.eot') format('eot'),
-  url('./fonts/love_3/Love.woff2') format('woff2'),
-  url('./fonts/love_3/Love.woff') format('woff'), 
-  url('./fonts/love_3/Love.ttf') format('truetype');	
+  src: url('./fonts/Love.eot') format('eot'),
+  url('./fonts/Love.woff2') format('woff2'),
+  url('./fonts/Love.woff') format('woff'), 
+  url('./fonts/Love.ttf') format('truetype');	
 }
 @font-face {
   font-family: 'Olivia';
-  src: url('./fonts/chopin_script/ChopinScript.eot') format('eot'),
-  url('./fonts/chopin_script/ChopinScript.woff2') format('woff2'),
-  url('./fonts/chopin_script/ChopinScript.woff') format('woff'), 
-  url('./fonts/chopin_script/ChopinScript.ttf') format('truetype');	
+  src: url('./fonts/ChopinScript.eot') format('eot'),
+  url('./fonts/ChopinScript.woff2') format('woff2'),
+  url('./fonts/ChopinScript.woff') format('woff'), 
+  url('./fonts/ChopinScript.ttf') format('truetype');	
 }
 
 @font-face {
   font-family: 'Bridgeth';
-  src: url('./fonts/bridgeth/Bridgeth.eot') format('eot'),
-  url('./fonts/bridgeth/Bridgeth.woff2') format('woff2'),
-  url('./fonts/bridgeth/Bridgeth.woff') format('woff'), 
-  url('./fonts/bridgeth/Bridgeth.ttf') format('truetype');	
+  src: url('./fonts/Bridgeth.eot') format('eot'),
+  url('./fonts/Bridgeth.woff2') format('woff2'),
+  url('./fonts/Bridgeth.woff') format('woff'), 
+  url('./fonts/Bridgeth.ttf') format('truetype');	
 }
