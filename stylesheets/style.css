@@ -24,10 +24,10 @@ body{
 
 @font-face {
   font-family: 'Olivia';
-  src: url('./fonts/chopin-script/ChopinScript.eot') format('eot'),
-  url('./fonts/chopin-script/ChopinScript.woff2') format('woff2'),
-  url('./fonts/chopin-script/ChopinScript.woff') format('woff'), 
-  url('./fonts/chopin-script/ChopinScript.ttf') format('truetype');	
+  src: url('./fonts/ChopinScript.eot') format('eot'),
+  url('./fonts/ChopinScript.woff2') format('woff2'),
+  url('./fonts/ChopinScript.woff') format('woff'), 
+  url('./fonts/ChopinScript.ttf') format('truetype');	
 }
 
 .fade-in {
