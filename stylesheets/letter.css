@@ -1,0 +1,243 @@
+html, body {
+  background-color: white;
+
+}
+
+
+.seal {
+	cursor: pointer;
+	top: -50px;
+	left: -50px;
+	position: absolute;
+	
+	word-spacing:0.001px;
+	font-family: Love3;
+	text-align: center;
+	font-size: 80px;
+	line-height: 80px;
+	
+	display: block;
+	background-color: #8b0000;
+	color:#8b0000;
+	border-color:#8b0000;
+    width: 85px;
+    height: 85px;
+	
+	text-shadow: 0 1px 2px black;
+	
+	border-radius: 35px 30px 40px 45px;
+    box-shadow: 0 -2px 4px rgba(  0,   0,   0, 0.2) inset,
+              0  3px 3px rgba(255, 255, 255, 0.6) inset,
+              0  1px 5px rgba(  0,   0,   0, 0.8);
+}
+
+.embossed{
+	display: block;
+	top: 6px;
+	left: 6px;
+	position: relative;
+	width:   70px;
+    height:  70px;
+
+    position: relative;
+	box-shadow: 0  -2px 2px rgba(205, 205, 205, 0.1) inset,
+                  0   3px 3px rgba( 30,  30,  30, 0.1) inset,
+                  0   1px 2px rgba( 30,  30,  30, 0.6) inset;
+
+    border-radius: 50px 50px 50px 50px;
+	
+    background-image: -webkit-linear-gradient(top,
+                                                rgba( 51, 51, 51, 0.3) 0%,
+                                                rgba( 51, 51, 51, 0.2) 100%);
+}
+
+.seal:before, .seal:after {
+  display: block;
+  content: ' ';
+  position: absolute;
+
+  line-height: 0;
+  font-size:   0;
+
+  background: inherit;
+  overflow:   hidden;
+
+  box-shadow: 0 1px 3px rgba(  0,   0,   0, 0.8),
+              0 3px 3px rgba(205, 205, 205, 0.4) inset;
+}
+
+.seal:after {
+  width:   0.7rem;
+  height:  0.7rem;
+  top:      84%;
+  left:     94%;
+
+  border-radius: 100%;
+}
+
+.seal:before {
+  width:   0.3rem;
+  height:  0.3rem;
+  top:      103%;
+  left:     85%;
+
+  border-radius: 100%;
+}
+
+.name-text{
+    padding-top: 50px;
+	padding-bottom: 200px;
+	font-family: Olivia;
+	color: white;
+	font-size: 72px;
+	text-align: center;
+}
+
+.container,.envelope,.flip,.letter,.text,.text:before,.text:after{
+	position: absolute;
+}
+
+.container{
+	position:relative;
+    width: 600px;
+    height: 400px;
+	margin: auto;
+	background: #EABFB9;
+	border-radius: 6px;
+	box-shadow: 0px 0px 3px #000;
+}
+
+.envelope {
+	border-top: 200px solid transparent;
+	border-left: 300px solid #FFE8E5;
+	border-bottom: 200px solid #FFE8E5;
+	border-right: 300px solid #F6CFCA;
+	border-radius: 6px;
+	z-index:9;
+}
+.flip {
+	top:0;
+	left:0;
+	border-top: 200px solid #EABFB9;
+	border-left: 300px solid transparent;
+	border-bottom: 200px solid transparent;
+	border-right: 300px solid transparent;
+	border-radius: 6px;
+	z-index:6;
+}
+ 
+ .letter{
+	top:0px;
+	left:2px;
+	height: 400px;
+	width: 595px;
+	background: #fcf8f7;
+	border-radius: 6px;
+	z-index:5;
+}
+.text{
+	top: 10px;
+	left:12px;
+	height:300px;
+	width:600px;
+	background: $txt;
+	font-family:Bridgeth;
+	font-size: 50px;
+ }
+ 
+.text:before,.text:after{
+	content:'';
+	height:100%;
+	background: $txt;
+	left:0px;
+	}
+.text:before{
+	top:10px;
+	width:600px;
+	}
+.text:after{
+	top:20px;
+	width:600px;
+  }
+.open{
+	animation: flipOpen .4s ease-in forwards ;
+ }
+
+.close{
+	animation: flipClose .4s ease-in forwards;
+ }
+.letterOpen{
+	top:-150px;
+	transition: .5s ease-in;
+ }
+ 
+ .letterClose{
+	top: 0px;
+	transition: .3s ease-in;
+ }
+ 
+ @keyframes flipOpen{
+	0%{
+		transform: rotateX(0deg);
+		transform-origin:center top;
+	  }
+	100%{
+		transform:rotateX(180deg);
+		transform-origin:center top;
+	  }
+  }
+  
+  @keyframes flipClose{
+	0%{
+		transform: rotateX(180deg);
+		transform-origin:center top;
+	  }
+	100%{
+		transform:rotateX(0deg);
+		transform-origin:center top;
+	  }
+  }
+#open{
+	margin-top:-10px;
+	margin-bottom: 8px;
+}
+#close{
+	outline: none;
+	background: #ccc;
+	color: #ddd;
+	cursor: not-allowed;
+}
+#open:focus ~ #close{
+	cursor: pointer;
+	background:$right;
+}
+
+@font-face {
+  font-family: 'Love4';
+  src: url('./fonts/love_4/lovee.eot') format('eot'),
+  url('./fonts/love_4/lovee.woff2') format('woff2'),
+  url('./fonts/love_4/lovee.woff') format('woff'), 
+  url('./fonts/love_4/lovee.ttf') format('truetype');	
+}
+@font-face {
+  font-family: 'Love3';
+  src: url('./fonts/love_3/Love.eot') format('eot'),
+  url('./fonts/love_3/Love.woff2') format('woff2'),
+  url('./fonts/love_3/Love.woff') format('woff'), 
+  url('./fonts/love_3/Love.ttf') format('truetype');	
+}
+@font-face {
+  font-family: 'Olivia';
+  src: url('./fonts/chopin_script/ChopinScript.eot') format('eot'),
+  url('./fonts/chopin_script/ChopinScript.woff2') format('woff2'),
+  url('./fonts/chopin_script/ChopinScript.woff') format('woff'), 
+  url('./fonts/chopin_script/ChopinScript.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Bridgeth';
+  src: url('./fonts/bridgeth/Bridgeth.eot') format('eot'),
+  url('./fonts/bridgeth/Bridgeth.woff2') format('woff2'),
+  url('./fonts/bridgeth/Bridgeth.woff') format('woff'), 
+  url('./fonts/bridgeth/Bridgeth.ttf') format('truetype');	
+}

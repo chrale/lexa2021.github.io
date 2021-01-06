@@ -1,0 +1,72 @@
+html, body {
+  background-color: white;
+}
+.name-text2{
+    padding-top: 50px;
+	padding-bottom: 200px;
+}
+.name-text, name-text:hover, name-text:focus, name-text:active, name-text:visited{
+    padding-top: 120px;
+	padding-bottom: 200px;
+	font-family: Olivia;
+	color: #423e3f;
+	font-size: 50px;
+	text-align: center;
+}
+a {
+  outline: none;
+  text-decoration: none;
+}
+.container,.envelope,.flip,.letter,.text,.text:before,.text:after{
+	position: absolute;
+}
+
+.container{
+	position:relative;
+    width: 600px;
+    height: 400px;
+	margin: auto;
+	background: #FFE8E5;
+	border-radius: 6px;
+	box-shadow: 0px 0px 3px #000;
+}
+
+.envelope {
+	border-top: 200px solid transparent;
+	border-left: 300px solid #FFE8E5;
+	border-bottom: 200px solid #FFE8E5;
+	border-right: 300px solid #F6CFCA;
+	border-radius: 6px;
+	z-index:9;
+}
+
+
+@font-face {
+  font-family: 'Love4';
+  src: url('./fonts/love_4/lovee.eot') format('eot'),
+  url('./fonts/love_4/lovee.woff2') format('woff2'),
+  url('./fonts/love_4/lovee.woff') format('woff'), 
+  url('./fonts/love_4/lovee.ttf') format('truetype');	
+}
+@font-face {
+  font-family: 'Love3';
+  src: url('./fonts/love_3/Love.eot') format('eot'),
+  url('./fonts/love_3/Love.woff2') format('woff2'),
+  url('./fonts/love_3/Love.woff') format('woff'), 
+  url('./fonts/love_3/Love.ttf') format('truetype');	
+}
+@font-face {
+  font-family: 'Olivia';
+  src: url('./fonts/chopin_script/ChopinScript.eot') format('eot'),
+  url('./fonts/chopin_script/ChopinScript.woff2') format('woff2'),
+  url('./fonts/chopin_script/ChopinScript.woff') format('woff'), 
+  url('./fonts/chopin_script/ChopinScript.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Bridgeth';
+  src: url('./fonts/bridgeth/Bridgeth.eot') format('eot'),
+  url('./fonts/bridgeth/Bridgeth.woff2') format('woff2'),
+  url('./fonts/bridgeth/Bridgeth.woff') format('woff'), 
+  url('./fonts/bridgeth/Bridgeth.ttf') format('truetype');	
+}
