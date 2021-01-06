@@ -1,7 +1,7 @@
 html, body {
   background-color: white;
-  background-image: url("../images/ch_46.jpg");
-  background-size: 100% 50%;
+  background-image: url("../images/ch_46.jpg") no-repeat fixed center;
+  background-size: 500 px 500 px;
 }
 .name-text2{
     padding-top: 50px;
