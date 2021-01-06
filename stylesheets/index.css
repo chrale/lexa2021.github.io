@@ -1,7 +1,140 @@
-.body{
+html, body {
   background-color: white;
   background-image: url("../images/ch_46.jpg");
   background-repeat: no-repeat; 		
   background-position: center;
   bacground-size: 500px 500px;
+  height: 100%; 
+}
+body{
+	margin: 0;
+}
+.flex-container-headline{
+  display: flex; /* or inline-flex */
+  height: 650px;
+  font-size: 72px;
+  align-items: center;
+  justify-content: center;
+  font-family: Olivia;
+  color: #423e3f;
+}
+
+.box{
+	text-align:center;
+	justify-content: center; 
+	align-items: center; 
+	align-content: center;
+}
+
+@font-face {
+  font-family: 'Olivia';
+  src: url('./fonts/ChopinScript.eot') format('eot'),
+  url('./fonts/ChopinScript.woff2') format('woff2'),
+  url('./fonts/ChopinScript.woff') format('woff'), 
+  url('./fonts/ChopinScript.ttf') format('truetype');	
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+* {
+  box-sizing: border-box;
+}
+
+.fade-out {
+  animation: fadeOut ease 8s;
+  -webkit-animation: fadeOut ease 8s;
+  -moz-animation: fadeOut ease 8s;
+  -o-animation: fadeOut ease 8s;
+  -ms-animation: fadeOut ease 8s;
+}
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
 }
