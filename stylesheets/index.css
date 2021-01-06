@@ -3,12 +3,9 @@ html, body {
   background-image: url("../images/ch_46.jpg");
   background-repeat: no-repeat; 		
   background-position: center;
-  bacground-size: 500px 500px;
-  height: 100%; 
+  bacground-size: 200px 200px;
 }
-body{
-	margin: 0;
-}
+
 .flex-container-headline{
   display: flex; /* or inline-flex */
   height: 650px;
