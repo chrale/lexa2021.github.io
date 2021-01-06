@@ -1,2 +1,7 @@
 .body{
+  background-color: white;
+  background-image: url("../images/ch_46.jpg");
+  background-repeat: no-repeat; 		
+  background-position: center;
+  bacground-size: 500px 500px;
 }
