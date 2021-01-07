@@ -1,12 +1,11 @@
 .flex-container{
-  background-color: blue;
   height: 1000px;
   display: flex; 
   flex-direction: column; 	
 }
 
 .header{
-  background-image: url(../images/ch_46.jpg);
+  background-image: url(../images/websize/ch_26.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  /* lt ie8 */
@@ -20,25 +19,30 @@
   order: 1;
   flex-grow: 0;
   flex-shrink: 1;
+  min-height:500px;
 }
 
+
 .navbar{
+  background-color: white;	
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 70px;
   order: 2;
   flex-grow: 0;
   flex-shrink: 1;
-  background-color: white;	
 }
 
-.navbar a{
-  font-family: Olivia;
+.navbar a, a:link, a:visited, a:hover, a:active{
+  background: url(brush1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+  padding: 8px 0px 8px 0px;
+  font-family: Arial;
+  text-decoration: none;
   color: white;
-  width: 100px;
   text-align: center;
-  background-color: #FFE8E5;
+  font-size: 25px;
 }
 
 .content{
@@ -49,9 +53,24 @@
   background-color: white;	
 }
 
+.content h1{
+	font-size: 20px;
+	font-family: Arial;
+	color:dark grey;
+}
+
+.content p{
+	font-size: 15px;
+	font-family: Calibri;
+	color: grey;
+}
+
 @media screen and (max-width: 700px) {
   .navbar {   
     flex-direction: column;
+   }
+   .header{
+	   min-height:500px;
    }
 }
 
