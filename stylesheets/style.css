@@ -5,7 +5,7 @@
 }
 
 .header{
-  background-image: url(/images/ch_26.jpg);
+  background-image: url(../images/ch_26.jpg);
   background-repeat: no-repeat;
   background-size: cover;
  /* lt ie8 */
