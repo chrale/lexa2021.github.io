@@ -1,34 +1,46 @@
-html, body {
-}
-
 .flex-container{
+  background-color: blue;
+  height: 1000px;
   display: flex; 
   flex-direction: column; 	
 }
 
-.photos{
+.header{
   background-color: black;
-  height: 100 px;
+  height: 500px;
   order: 1;
   flex-grow: 0;
   flex-shrink: 1;
 }
 
 
-.links{
-  height: 100 px;
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
   order: 2;
   flex-grow: 0;
   flex-shrink: 1;
   background-color: white;	
 }
 
-.text{
-  height: 100 px;
+.navbar a{
+  color:black;
+}
+
+.content{
+  height: 100%;
   order: 3;
   flex-grow: 0;
   flex-shrink: 1;
-  background-color: black;	
+  background-color: yellow;	
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {   
+    flex-direction: column;
+   }
 }
 
 @font-face {
