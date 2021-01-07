@@ -166,3 +166,10 @@ html, body{
 	color: #B86B77;
 	text-align: center;
 }
+.location{
+	word-spacing: 40px;
+	font-size: 20px;
+	font-family: Icon;
+	color: #B86B77;
+	text-align: center;
+}
