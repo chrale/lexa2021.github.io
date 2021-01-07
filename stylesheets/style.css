@@ -135,3 +135,26 @@ html, body{
   url('./fonts/Roboto-Thin.woff') format('woff'), 
   url('./fonts/Roboto-Thins.ttf') format('truetype');	
 }
+
+.timer{
+	font-size: 50px;
+	font-family: Quicksand;
+	color: #B86B77;
+	display: inline;
+	word-spacing: 40px;
+}
+
+.timer-text{
+	word-spacing: 40px;
+	font-size: 20px;
+	font-family: Quicksand;
+	color: #B86B77;
+}
+
+.location-text{
+	word-spacing: 40px;
+	font-size: 20px;
+	font-family: Quicksand;
+	color: #B86B77;
+	text-align: center;
+}
