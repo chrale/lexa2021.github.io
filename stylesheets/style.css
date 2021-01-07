@@ -1,52 +1,70 @@
+html, body{
+  margin: 0;
+}
+
 .flex-container{
   height: 1000px;
   display: flex; 
-  flex-direction: column; 	
+  flex-direction: column;
+  
 }
 
-.header{
+.banner{
   background-image: url(../images/ch_26.jpg);
   background-repeat: no-repeat;
   background-size: cover;
- /* lt ie8 */
   -ms-background-position-x: center;
   -ms-background-position-y: bottom;
   background-position: center center;
-
-  /* scale bg image proportionately */
   background-size: cover;
   height: 600px;
-  order: 1;
+  order: 2;
   flex-grow: 0;
   flex-shrink: 1;
   min-height:500px;
 }
 
-
 .navbar{
+	
+  min-height: 50px;
+  left: 0;
   background-color: white;	
   display: flex;
   justify-content: space-around;
+  position:fixed;
+  left:0;
+  width: 100%;
   align-items: center;
-  order: 2;
+  order: 1;
   flex-grow: 0;
   flex-shrink: 1;
 }
 
-.navbar a, a:link, a:visited, a:hover, a:active{
+.navbar a, a:link, a:visited{
+  font-family: Roboto;
+  text-decoration: none;
+  color: #B86B77;
+  text-align: center;
+  font-size: 30px;
+}
+
+.navbar a:hover, a:active{
   background: url(brush1.png);
   background-repeat: no-repeat;
   background-size: 100% 95%;
   padding: 8px 0px 8px 0px;
-  font-family: Arial;
+  font-family: Roboto;
   text-decoration: none;
-  color: white;
+  color: #F6CFCA;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .content{
+  align-self: center;
+  text-align: justify;
   height: 100%;
+  max-width: 500px;
   order: 3;
   flex-grow: 0;
   flex-shrink: 1;
@@ -55,13 +73,13 @@
 
 .content h1{
 	font-size: 20px;
-	font-family: Arial;
-	color:dark grey;
+	font-family: Quicksand;
+	color: #EABFB9;
 }
 
 .content p{
 	font-size: 15px;
-	font-family: Calibri;
+	font-family: GeoSansLight;
 	color: grey;
 }
 
@@ -75,9 +93,49 @@
 }
 
 @font-face {
-  font-family: 'Olivia';
-  src: url('./fonts/ChopinScript.eot') format('eot'),
-  url('./fonts/ChopinScript.woff2') format('woff2'),
-  url('./fonts/ChopinScript.woff') format('woff'), 
-  url('./fonts/ChopinScript.ttf') format('truetype');	
+  font-family: 'Lonely';
+  src: url('./fonts/Lonely-Regular.eot') format('eot'),
+  url('./fonts/Lonely-Regular.woff2') format('woff2'),
+  url('./fonts/Lonely-Regular.woff') format('woff'), 
+  url('./fonts/Lonely-Regular.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Champagne';
+  src: url('./fonts/ChampagneLimousines.eot') format('eot'),
+  url('./fonts/ChampagneLimousines.woff2') format('woff2'),
+  url('./fonts/ChampagneLimousines.woff') format('woff'), 
+  url('./fonts/ChampagneLimousines.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'GeoSansLight';
+  src: url('./fonts/GeoSansLight.eot') format('eot'),
+  url('./fonts/GeoSansLight.woff2') format('woff2'),
+  url('./fonts/GeoSansLight.woff') format('woff'), 
+  url('./fonts/GeoSansLight.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Kiona';
+  src: url('./fonts/Kiona-Regular.eot') format('eot'),
+  url('./fonts/Kiona-Regular.woff2') format('woff2'),
+  url('./fonts/Kiona-Regular.woff') format('woff'), 
+  url('./fonts/Kiona-Regular.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/QuicksandLight-Regular.eot') format('eot'),
+  url('./fonts/QuicksandLight-Regular.woff2') format('woff2'),
+  url('./fonts/QuicksandLight-Regular.woff') format('woff'), 
+  url('./fonts/QuicksandLight-Regular.ttf') format('truetype');	
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Thin.eot') format('eot'),
+  url('./fonts/Roboto-Thin.woff2') format('woff2'),
+  url('./fonts/Roboto-Thin.woff') format('woff'), 
+  url('./fonts/Roboto-Thins.ttf') format('truetype');	
 }
