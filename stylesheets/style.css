@@ -1,7 +1,4 @@
 html, body {
-  height: 100%; 
-  background-color: #F6CFCA;
-  margin: 0;
 }
 
 .flex-container{
@@ -10,15 +7,27 @@ html, body {
 }
 
 .photos{
-  background-color: black;	
+  background-color: black;
+  height: 100 px;
+  order: 1;
+  flex-grow: 0;
+  flex-shrink: 1;
 }
 
 
 .links{
+  height: 100 px;
+  order: 2;
+  flex-grow: 0;
+  flex-shrink: 1;
   background-color: white;	
 }
 
 .text{
+  height: 100 px;
+  order: 3;
+  flex-grow: 0;
+  flex-shrink: 1;
   background-color: black;	
 }
 
