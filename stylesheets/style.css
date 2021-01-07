@@ -160,14 +160,16 @@ html, body{
 }
 
 .location-text{
-	word-spacing: 40px;
+	display: inline;
+	word-spacing: 10px;
 	font-size: 20px;
 	font-family: Quicksand;
 	color: #B86B77;
 	text-align: center;
 }
 .location{
-	word-spacing: 40px;
+	display: inline;
+	word-spacing: 10px;
 	font-size: 20px;
 	font-family: Icon;
 	color: #B86B77;
