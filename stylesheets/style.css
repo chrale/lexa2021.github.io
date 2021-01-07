@@ -49,10 +49,6 @@ html, body{
 }
 
 .navbar a:hover, a:active{
-  background: url(brush1.png);
-  background-repeat: no-repeat;
-  background-size: 100% 95%;
-  padding: 8px 0px 8px 0px;
   font-family: Roboto;
   text-decoration: none;
   color: #F6CFCA;
