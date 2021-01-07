@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen" />
+  <title>gallery</title>
+</head>
+<body>
+<div class="flex-container">
+	<div class="navbar">
+	   <a href="home.html">home</a>
+       <a href="index.html">our story</a>
+       <a href="accomodation.html">accomodation</a>
+       <a href="registry.html">registry</a>
+       <a href="gallery.html">gallery</a>
+    </div>
+	<div class="banner"></div>
+	<div class="content">
+	<h1>small headline</h1>
+<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam porttitor, pulvinar nulla vitae, iaculis urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec odio pellentesque, laoreet lectus in, sollicitudin libero. Nullam porttitor eros sit amet finibus convallis. Duis cursus semper nibh sit amet varius. Integer fermentum velit dui, dapibus dignissim sem ornare sed. Cras est eros, euismod vel magna vitae, volutpat cursus lorem. Fusce pulvinar enim eu libero ornare, ac ullamcorper nibh consectetur. Donec pellentesque accumsan eleifend. Fusce ac ex congue dolor commodo ullamcorper. Nam non imperdiet lacus. Etiam justo dui, porttitor id leo a, volutpat vulputate mauris. Vestibulum finibus nisl ac dui bibendum porta. Ut ut luctus diam, eget accumsan urna.
+</p>
+<h1>small headline</h1>
+<p>In dolor neque, facilisis sit amet lorem quis, pulvinar ultricies odio. Sed eu lacinia lorem. Quisque lobortis sed libero eu iaculis. Integer tincidunt nibh sed ex consequat cursus. Nullam elit velit, fringilla non aliquam eget, porta vel leo. Aliquam a placerat urna. Integer iaculis purus in sem mattis posuere. Mauris vel turpis ut elit mollis aliquam a eu velit. Fusce suscipit orci ante, at consectetur risus pulvinar sed. Vestibulum molestie dictum arcu vel fringilla. Phasellus sit amet tellus vitae erat condimentum tempus. Aliquam erat volutpat. Praesent blandit rutrum turpis vitae pulvinar. Nulla bibendum consectetur neque, in sagittis libero egestas eget. Nam auctor odio velit, et elementum ligula scelerisque in.
+</p>
+</div>
+</div>
+<!--    <script type="application/javascript" src="javascript/java.js"></script>-->
+</body>
+
+</html>
