@@ -136,6 +136,14 @@ html, body{
   url('./fonts/Roboto-Thins.ttf') format('truetype');	
 }
 
+@font-face {
+  font-family: 'Icon';
+  src: url('./fonts/IconsFontColor.eot') format('eot'),
+  url('./fonts/IconsFontColor.woff2') format('woff2'),
+  url('./fonts/IconsFontColor.woff') format('woff'), 
+  url('./fonts/IconsFontColor.ttf') format('truetype');	
+}
+
 .timer{
 	font-size: 50px;
 	font-family: Quicksand;
