@@ -138,7 +138,7 @@ html, body{
   order: 3;
   flex-grow: 0;
   flex-shrink: 1;
-  background-color: white;	
+  background-color: rgb(248, 223, 216, 0.15);	
 }
 
 .content h1{
